@@ -4,10 +4,10 @@ const child_process = require('child_process');
 const args = process.argv.slice(2);
 
 if (args.length <= 0) {
-    console.log(chalk.red("请输入目标文件地址！----> 例如：node git_deletejs /User/xxx/code_js dev/1.0.0"));
+    console.log(chalk.red("请输入目标文件地址！----> 例如：node git_delete.js /User/xxx/code_js dev/1.0.0"));
     return;
 } else if (args.length < 2) {
-    console.log(chalk.red("请输入分支名称前缀！----> 例如：node git_deletejs /User/xxx/code_js dev/1.0.0"));
+    console.log(chalk.red("请输入分支名称前缀！----> 例如：node git_delete.js /User/xxx/code_js dev/1.0.0"));
     return;
 }
 
