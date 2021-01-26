@@ -2,6 +2,7 @@
 node.js 写的一些脚本小工具
 
 - 批量删除本地git分支
+- 删除某个文件夹下的所有文件和文件夹
 
 ## 批量删除本地git分支
 
@@ -12,4 +13,12 @@ node.js 写的一些脚本小工具
 
 ```js
 node git_delete.js /User/xxx/code_js/projects dev/1.0.0
+```
+
+## 删除某个文件夹下的所有文件和文件夹
+
+比如download 文件夹中随着时间的推移会有很多废弃文件，一键清空:
+
+```js
+node delete_files.js /Users/xxx/Downloads
 ```
